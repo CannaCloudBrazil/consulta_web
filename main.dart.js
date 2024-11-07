@@ -50146,8 +50146,8 @@ m(){this.w.cL(0)
 this.aR()},
 U(a){var s=this,r=null,q=s.z,p=q?s.gafb():s.gaf7(),o=t.E
 p=A.atD(A.b([A.axK(A.n9(q?"Parar":"Falar",r,r,r,r,r,r),p)],o),B.bQ,B.jO,B.cM)
-if(s.at)q=new A.z5(new A.H9("json/mouth_animation.json",r,r,r,r,!1),r,r,r,r,r,r,r,r,r,400,400,r,r,r,r,r,r,r,r)
-else q=new A.yp(A.aNC(r,r,new A.qP("image/animation2.jpg",r,r)),400,400,r)
+if(s.at)q=new A.z5(new A.H9("assets/json/mouth_animation.json",r,r,r,r,!1),r,r,r,r,r,r,r,r,r,400,400,r,r,r,r,r,r,r,r)
+else q=new A.yp(A.aNC(r,r,new A.qP("assets/image/animation2.jpg",r,r)),400,400,r)
 return new A.AN(new A.wk(B.Sk,B.j,new A.U9(r,r,1/0,56),r),new A.eN(B.Du,A.wV(A.b([B.Sj,B.eO,new A.BM(s.d,B.Ei,B.yX,B.yI,B.yJ,new A.a0L(s),!0,r),B.eO,p,B.eO,A.a3z(A.atD(A.b([A.a3z(A.wV(A.b([A.wV(A.b([q],o),B.bQ,B.jO,B.cM),B.eO,A.axK(B.Sl,new A.a0M(s)),B.MT,A.azP(s.e,B.Qi)],o),B.bQ,B.ch,B.cM),1),A.a3z(A.wV(A.b([B.Si,B.eO,A.a3z(new A.NI(A.azP(s.r,r),r),1)],o),B.bQ,B.ch,B.cM),1)],o),B.bQ,B.ch,B.cM),1)],o),B.bQ,B.ch,B.cM),r),B.j,r)},
 Dp(a){return this.a5z(a)},
 a5z(a){var s=0,r=A.H(t.H),q=this,p
@@ -96834,7 +96834,7 @@ B.QX=new A.n(!0,B.m,null,"Roboto",B.O,null,null,null,null,null,null,null,null,nu
 B.Sh=new A.dE(B.RK,B.OS,B.PR,B.QM,B.QZ,B.Oi,B.Pq,B.Om,B.Qw,B.Rb,B.Q0,B.Rd,B.Ro,B.QN,B.QX)
 B.Si=new A.lg("Conversa:",null,B.hS,null,null,null,null,null,null)
 B.Sj=new A.lg("Bem-vindo. Descreva seus sintomas.",null,null,null,null,null,null,null,null)
-B.Sk=new A.lg("Consulta M\xe9dica Simulada v1",null,null,null,null,null,null,null,null)
+B.Sk=new A.lg("Consulta M\xe9dica Simulada v2",null,null,null,null,null,null,null,null)
 B.Sl=new A.lg("Clique para ouvir",null,null,null,null,null,null,null,null)
 B.VY=new A.ahF(0,"system")
 B.Jr=new A.h(0.05,0)
