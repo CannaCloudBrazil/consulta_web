@@ -45431,7 +45431,7 @@ r.toString
 s.dU(r)}},
 $S:6}
 A.IE.prototype={
-V(a){return new A.xq(B.Do,"Consulta Web",A.A1(null,A.aD7(B.ae,B.HA),!0),null)}}
+V(a){return new A.xq(B.Do,"AI Doctor",A.A1(null,A.aD7(B.ae,B.HA),!0),null)}}
 A.Gv.prototype={
 j(a,b){var s,r,q,p,o
 if(b==null)return!1
@@ -86721,12 +86721,12 @@ B.Eo=A.b(s([48,null,null,8589935152]),t.Z)
 B.Ep=A.b(s([49,null,null,8589935153]),t.Z)
 B.Et=A.b(s([50,null,null,8589935154]),t.Z)
 B.Eu=A.b(s([51,null,null,8589935155]),t.Z)
-B.Ev=A.b(s([52,null,null,8589935156]),t.Z)
-B.Ew=A.b(s([53,null,null,8589935157]),t.Z)
-B.Ex=A.b(s([54,null,null,8589935158]),t.Z)
-B.Ey=A.b(s([55,null,null,8589935159]),t.Z)
-B.Ez=A.b(s([56,null,null,8589935160]),t.Z)
-B.EA=A.b(s([57,null,null,8589935161]),t.Z)
+B.Ew=A.b(s([52,null,null,8589935156]),t.Z)
+B.Ex=A.b(s([53,null,null,8589935157]),t.Z)
+B.Ey=A.b(s([54,null,null,8589935158]),t.Z)
+B.Ez=A.b(s([55,null,null,8589935159]),t.Z)
+B.EA=A.b(s([56,null,null,8589935160]),t.Z)
+B.EB=A.b(s([57,null,null,8589935161]),t.Z)
 B.F0=A.b(s([8589934852,8589934852,8589934853,null]),t.Z)
 B.E7=A.b(s([4294967555,null,4294967555,null]),t.Z)
 B.E8=A.b(s([4294968065,null,null,8589935154]),t.Z)
@@ -86744,7 +86744,7 @@ B.F2=A.b(s([8589934854,8589934854,8589934855,null]),t.Z)
 B.Ee=A.b(s([4294968071,null,null,8589935155]),t.Z)
 B.Ef=A.b(s([4294968072,null,null,8589935161]),t.Z)
 B.F3=A.b(s([8589934850,8589934850,8589934851,null]),t.Z)
-B.tc=new A.cL(["*",B.Ei,"+",B.Ej,"-",B.El,".",B.Em,"/",B.En,"0",B.Eo,"1",B.Ep,"2",B.Et,"3",B.Eu,"4",B.Ev,"5",B.Ew,"6",B.Ex,"7",B.Ey,"8",B.Ez,"9",B.EA,"Alt",B.F0,"AltGraph",B.E7,"ArrowDown",B.E8,"ArrowLeft",B.E9,"ArrowRight",B.Ea,"ArrowUp",B.Eb,"Clear",B.Eg,"Control",B.F1,"Delete",B.E6,"End",B.Ec,"Enter",B.E5,"Home",B.Ed,"Insert",B.Eh,"Meta",B.F2,"PageDown",B.Ee,"PageUp",B.Ef,"Shift",B.F3],A.ak("cL<o,B<r?>>"))
+B.tc=new A.cL(["*",B.Ei,"+",B.Ej,"-",B.El,".",B.Em,"/",B.En,"0",B.Eo,"1",B.Ep,"2",B.Et,"3",B.Eu,"4",B.Ew,"5",B.Ex,"6",B.Ey,"7",B.Ez,"8",B.EA,"9",B.EB,"Alt",B.F0,"AltGraph",B.E7,"ArrowDown",B.E8,"ArrowLeft",B.E9,"ArrowRight",B.Ea,"ArrowUp",B.Eb,"Clear",B.Eg,"Control",B.F1,"Delete",B.E6,"End",B.Ec,"Enter",B.E5,"Home",B.Ed,"Insert",B.Eh,"Meta",B.F2,"PageDown",B.Ee,"PageUp",B.Ef,"Shift",B.F3],A.ak("cL<o,B<r?>>"))
 B.Hh=new A.cL([0,"FontWeight.w100",1,"FontWeight.w200",2,"FontWeight.w300",3,"FontWeight.w400",4,"FontWeight.w500",5,"FontWeight.w600",6,"FontWeight.w700",7,"FontWeight.w800",8,"FontWeight.w900"],A.ak("cL<r,o>"))
 B.I0={"deleteBackward:":0,"deleteWordBackward:":1,"deleteToBeginningOfLine:":2,"deleteForward:":3,"deleteWordForward:":4,"deleteToEndOfLine:":5,"moveLeft:":6,"moveRight:":7,"moveForward:":8,"moveBackward:":9,"moveUp:":10,"moveDown:":11,"moveLeftAndModifySelection:":12,"moveRightAndModifySelection:":13,"moveUpAndModifySelection:":14,"moveDownAndModifySelection:":15,"moveWordLeft:":16,"moveWordRight:":17,"moveToBeginningOfParagraph:":18,"moveToEndOfParagraph:":19,"moveWordLeftAndModifySelection:":20,"moveWordRightAndModifySelection:":21,"moveParagraphBackwardAndModifySelection:":22,"moveParagraphForwardAndModifySelection:":23,"moveToLeftEndOfLine:":24,"moveToRightEndOfLine:":25,"moveToBeginningOfDocument:":26,"moveToEndOfDocument:":27,"moveToLeftEndOfLineAndModifySelection:":28,"moveToRightEndOfLineAndModifySelection:":29,"moveToBeginningOfDocumentAndModifySelection:":30,"moveToEndOfDocumentAndModifySelection:":31,"transpose:":32,"scrollToBeginningOfDocument:":33,"scrollToEndOfDocument:":34,"scrollPageUp:":35,"scrollPageDown:":36,"pageUpAndModifySelection:":37,"pageDownAndModifySelection:":38,"cancelOperation:":39,"insertTab:":40,"insertBacktab:":41}
 B.xl=new A.kz(!1)
@@ -87665,10 +87665,10 @@ B.er=new A.rv(1,"doNotPop")
 B.xf=new A.rv(2,"bubble")
 B.hQ=new A.Mi(1,"down")
 B.NA=new A.l(!0,B.j,null,null,null,null,8,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.Rl=new A.kF("1.0.1",null,B.NA,B.hK,null,null,null,null,null)
+B.Rl=new A.kF("1.0.2",null,B.NA,B.hK,null,null,null,null,null)
 B.D5=new A.wg(1,B.j4,B.Rl,null)
-B.EB=A.b(s([B.D5]),t.E)
-B.JV=new A.yT(B.aM,B.a_,B.F,B.H,null,B.hQ,null,B.EB,null)
+B.Ev=A.b(s([B.D5]),t.E)
+B.JV=new A.yT(B.aM,B.a_,B.F,B.H,null,B.hQ,null,B.Ev,null)
 B.JW=new A.Kp(null,null)
 B.dk=new A.oJ(0,"idle")
 B.JX=new A.oJ(1,"transientCallbacks")
