@@ -19784,7 +19784,7 @@ r.toString
 A.eN(r)
 q=a.h(0,"swipeEdge")
 q.toString
-return new A.JG(s,r,B.F6[A.cx(q)])},
+return new A.JG(s,r,B.F7[A.cx(q)])},
 zG:function zG(a,b){this.a=a
 this.b=b},
 JG:function JG(a,b,c){this.a=a
@@ -28450,7 +28450,7 @@ l.push(new A.dz(n[0],n[1],n[2],n[3],B.jo[m]))}return l},
 e2(a){var s,r=this.a
 r===$&&A.a()
 r=r.a.getGlyphPositionAtCoordinate(a.a,a.b)
-s=B.F7[B.c.a8(r.affinity.value)]
+s=B.F8[B.c.a8(r.affinity.value)]
 return new A.aK(B.c.a8(r.pos),s)},
 H2(a){var s=this.a
 s===$&&A.a()
@@ -35006,7 +35006,7 @@ a2x(){var s=this,r=s.f
 if(r==null){r=s.f=new A.uK(s.b)
 r.d=new A.a02(s)}return r},
 Tg(a){var s,r=this
-if(B.b.p(B.F_,a.type)){s=r.a2x()
+if(B.b.p(B.F0,a.type)){s=r.a2x()
 s.toString
 s.sEn(J.ex(r.b.$0(),B.dT))
 if(r.e!==B.mU){r.e=B.mU
@@ -45124,7 +45124,7 @@ while(true)switch(s){case 0:p=t.N
 o=A.a7(["Content-Type","application/json","Authorization","Bearer "+a],p,p)
 n=q.a
 s=2
-return A.I(A.art(q.c,B.P.i2(A.a7(["model","gpt-3.5-turbo","messages",A.b([A.a7(["role","system","content","Voc\xea \xe9 um assistente m\xe9dico virtual especializado em consultas para pacientes que procuram tratamentos \xe0 base de CBD. Sua tarefa \xe9 fazer uma pergunta por vez para conduzir a consulta (Pode fazer quantas perguntas forem necess\xe1rias) para identificar o nome, data de nascimento(v\xe1lida), fazer o diagn\xf3stico(Deve ser feito varias perguntas sobre o estado de sa\xfade do paciente para que o paciente sinta a aten\xe7\xe3o do m\xe9dico em encontrar todos detalhes para passar a medica\xe7\xe3o correta. Quanto mais perguntas para aprofundar as informa\xe7\xf5es necess\xe1rias para acertividade da recita, melh or) e por fim pedir o email para compartilhar com a pessoa o resultado. N\xe3o passe para a pr\xf3xima pergunta antes de saber o nome em primeiro lugar, depois a data de nascimento(v\xe1lida) e assim por diante. Se identificar que o paciente precisa de um tratamento que n\xe3o envolva produtos \xe0 base de CBD, recomende educadamente que ele procure um especialista humano espec\xedfico (por exemplo, cardiologista, neurologista, dermatologista, etc.). No entanto, voc\xea \xe9 o especialista virtual para tratamentos com CBD podendo receitar medicamentos (recomende somente os produtos das marcas Isospec, Ignite e Quality quando necess\xe1rio) "+(n.length===0?"":"Os produtos para recomendar s\xe3o: "+n)+". Deve receitar quando oportuno os medicamentos com as concentra\xe7\xf5es e dosagens espec\xedficadas (obrigat\xf3rio) e a forma e dura\xe7\xe3o do tratamento. Se for a \xfaltima resposta, pode explicar o porque do medicamento e dizer se tem mais alguma queixa ou se pode finalizar o atendimento pr\xe9vio e que passar\xe1 as informa\xe7\xf5es para o m\xe9dico responsav\xe9l que entrar\xe1 em contato com o paciente assim que poss\xedvel."],p,p),A.a7(["role","assistant","content","Entendo sua situa\xe7\xe3o. No momento, meu foco \xe9 em tratamentos que envolvem o uso de produtos \xe0 base de CBD. No entanto, para uma condi\xe7\xe3o que n\xe3o se beneficia desse tipo de tratamento, recomendo que voc\xea procure um especialista humano, como um cardiologista ou neurologista, para uma avalia\xe7\xe3o mais detalhada."],p,p),A.a7(["role","user","content",q.b],p,p)],t.m0),"temperature",0.5,"max_tokens",300],p,t.K)),o),$async$$1)
+return A.I(A.art(q.c,B.P.i2(A.a7(["model","gpt-3.5-turbo","messages",A.b([A.a7(["role","system","content",'Voc\xea \xe9 um "assistente" de m\xe9dico virtual especializado em consultas para pacientes que procuram tratamentos \xe0 base de CBD. Sua tarefa \xe9 fazer uma pergunta por vez para conduzir a consulta (Pode fazer quantas perguntas forem necess\xe1rias) para identificar o nome, data de nascimento(v\xe1lida), fazer o diagn\xf3stico(Deve ser feito varias perguntas sobre o estado de sa\xfade do paciente para que o paciente sinta a aten\xe7\xe3o dada para encontrar todos detalhes para passar a medica\xe7\xe3o correta. Quanto mais perguntas para aprofundar as informa\xe7\xf5es necess\xe1rias para acertividade da recita, melhor) e por fim pedir o email para compartilhar com a pessoa o resultado. N\xe3o passe para a pr\xf3xima pergunta antes de saber o nome em primeiro lugar, depois a data de nascimento(v\xe1lida) e assim por diante. Se identificar que o paciente precisa de um tratamento que n\xe3o envolva produtos \xe0 base de CBD, recomende educadamente que ele procure um especialista humano espec\xedfico (por exemplo, cardiologista, neurologista, dermatologista, etc.). No entanto, voc\xea \xe9 o especialista virtual para tratamentos com CBD podendo receitar medicamentos (recomende somente os produtos das marcas Isospec, Ignite e Quality quando necess\xe1rio) '+(n.length===0?"":"Os produtos para recomendar s\xe3o: "+n)+". Deve receitar quando oportuno os medicamentos com as concentra\xe7\xf5es e dosagens espec\xedficadas (obrigat\xf3rio) e a forma e dura\xe7\xe3o do tratamento. Se for a \xfaltima resposta, pode explicar o porque do medicamento e dizer se tem mais alguma queixa ou se pode finalizar o atendimento pr\xe9vio e que passar\xe1 as informa\xe7\xf5es para o m\xe9dico responsav\xe9l que entrar\xe1 em contato com o paciente assim que poss\xedvel. Ap\xf3s pedir o email, diga que passar\xe1 as informa\xe7\xf5es para um m\xe9dico respons\xe1vel e que ele entrar\xe1 em contato no email solicitado e passar\xe1 a receita."],p,p),A.a7(["role","assistant","content","Entendo sua situa\xe7\xe3o. No momento, meu foco \xe9 em tratamentos que envolvem o uso de produtos \xe0 base de CBD. No entanto, para uma condi\xe7\xe3o que n\xe3o se beneficia desse tipo de tratamento, recomendo que voc\xea procure um especialista humano, como um cardiologista ou neurologista, para uma avalia\xe7\xe3o mais detalhada."],p,p),A.a7(["role","user","content",q.b],p,p)],t.m0),"temperature",0.5,"max_tokens",300],p,t.K)),o),$async$$1)
 case 2:m=c
 p=q.d
 if(m.b===200)p.$1(J.aow(J.aA(J.aA(J.aA(J.aA(B.P.c7(0,B.S.c7(0,m.w)),"choices"),0),"message"),"content")))
@@ -53870,7 +53870,7 @@ r.e=s.a.a
 r.f=s.d},
 $S:0}
 A.Ik.prototype={
-V(a){return new A.yp(new A.nr(B.AW,null,null),A.aux(1,B.EZ,new A.cr(B.lm,B.t)),this.c.T(0,new A.i(0,40.95)),1.25,B.LV,null)}}
+V(a){return new A.yp(new A.nr(B.AW,null,null),A.aux(1,B.F_,new A.cr(B.lm,B.t)),this.c.T(0,new A.i(0,40.95)),1.25,B.LV,null)}}
 A.lY.prototype={
 G(){return"MaterialType."+this.b}}
 A.xs.prototype={
@@ -86750,12 +86750,12 @@ B.EN=A.b(s([B.l3,B.z0]),A.ak("w<Cy>"))
 B.ER=A.b(s([B.ib,B.ic]),A.ak("w<uZ>"))
 B.n8=A.b(s([0,0,26624,1023,65534,2047,65534,2047]),t.t)
 B.e9=A.b(s([B.cQ,B.ci,B.eS,B.eT,B.ia]),t.QP)
-B.F8=A.b(s([137,80,78,71,13,10,26,10]),t.Z)
-B.Dy=new A.k6(B.F8,"image/png")
-B.F4=A.b(s([71,73,70,56,55,97]),t.Z)
-B.DC=new A.k6(B.F4,"image/gif")
-B.F5=A.b(s([71,73,70,56,57,97]),t.Z)
-B.DD=new A.k6(B.F5,"image/gif")
+B.F9=A.b(s([137,80,78,71,13,10,26,10]),t.Z)
+B.Dy=new A.k6(B.F9,"image/png")
+B.F5=A.b(s([71,73,70,56,55,97]),t.Z)
+B.DC=new A.k6(B.F5,"image/gif")
+B.F6=A.b(s([71,73,70,56,57,97]),t.Z)
+B.DD=new A.k6(B.F6,"image/gif")
 B.E3=A.b(s([255,216,255]),t.Z)
 B.DB=new A.k6(B.E3,"image/jpeg")
 B.EQ=A.b(s([82,73,70,70,null,null,null,null,87,69,66,80]),t.Z)
@@ -86766,16 +86766,16 @@ B.EY=A.b(s([B.Dy,B.DC,B.DD,B.DB,B.DA,B.Dz]),A.ak("w<k6>"))
 B.lU=new A.q(419430400)
 B.I3=new A.i(0,2)
 B.zE=new A.dE(0.75,B.cR,B.lU,B.I3,1.5)
-B.EZ=A.b(s([B.zE]),t.sq)
+B.F_=A.b(s([B.zE]),t.sq)
 B.FN=new A.iX("en","US")
 B.n9=A.b(s([B.FN]),t.ss)
 B.na=A.b(s([0,0,65490,12287,65535,34815,65534,18431]),t.t)
-B.F_=A.b(s(["pointerdown","pointermove","pointerleave","pointerup","pointercancel","touchstart","touchend","touchmove","touchcancel","mousedown","mousemove","mouseleave","mouseup","keyup","keydown"]),t.s)
+B.F0=A.b(s(["pointerdown","pointermove","pointerleave","pointerup","pointercancel","touchstart","touchend","touchmove","touchcancel","mousedown","mousemove","mouseleave","mouseup","keyup","keydown"]),t.s)
 B.MC=new A.zG(0,"left")
 B.MD=new A.zG(1,"right")
-B.F6=A.b(s([B.MC,B.MD]),A.ak("w<zG>"))
+B.F7=A.b(s([B.MC,B.MD]),A.ak("w<zG>"))
 B.a3=new A.zP(0,"upstream")
-B.F7=A.b(s([B.a3,B.i]),A.ak("w<zP>"))
+B.F8=A.b(s([B.a3,B.i]),A.ak("w<zP>"))
 B.Z=new A.mq(0,"rtl")
 B.r=new A.mq(1,"ltr")
 B.jo=A.b(s([B.Z,B.r]),A.ak("w<mq>"))
@@ -86971,10 +86971,10 @@ B.ek=new A.f(8589935159)
 B.Fl=A.b(s([B.t2,null,null,B.ek]),t.L)
 B.t3=new A.f(56)
 B.cC=new A.f(8589935160)
-B.F9=A.b(s([B.t3,null,null,B.cC]),t.L)
+B.Fa=A.b(s([B.t3,null,null,B.cC]),t.L)
 B.t4=new A.f(57)
 B.el=new A.f(8589935161)
-B.Fa=A.b(s([B.t4,null,null,B.el]),t.L)
+B.Fb=A.b(s([B.t4,null,null,B.el]),t.L)
 B.FH=A.b(s([B.eg,B.eg,B.fV,null]),t.L)
 B.fR=new A.f(4294967555)
 B.Fd=A.b(s([B.fR,null,B.fR,null]),t.L)
@@ -87005,7 +87005,7 @@ B.EK=A.b(s([B.ed,null,null,B.ej]),t.L)
 B.ee=new A.f(4294968072)
 B.E5=A.b(s([B.ee,null,null,B.el]),t.L)
 B.FK=A.b(s([B.c5,B.c5,B.cx,null]),t.L)
-B.Hi=new A.cL(["*",B.ET,"+",B.EU,"-",B.EV,".",B.EW,"/",B.EX,"0",B.Fe,"1",B.Ff,"2",B.Fg,"3",B.Fh,"4",B.Fi,"5",B.Fj,"6",B.Fk,"7",B.Fl,"8",B.F9,"9",B.Fa,"Alt",B.FH,"AltGraph",B.Fd,"ArrowDown",B.EF,"ArrowLeft",B.EG,"ArrowRight",B.EH,"ArrowUp",B.Es,"Clear",B.EO,"Control",B.FI,"Delete",B.EM,"End",B.EI,"Enter",B.EC,"Home",B.EJ,"Insert",B.EP,"Meta",B.FJ,"PageDown",B.EK,"PageUp",B.E5,"Shift",B.FK],A.ak("cL<n,B<f?>>"))
+B.Hi=new A.cL(["*",B.ET,"+",B.EU,"-",B.EV,".",B.EW,"/",B.EX,"0",B.Fe,"1",B.Ff,"2",B.Fg,"3",B.Fh,"4",B.Fi,"5",B.Fj,"6",B.Fk,"7",B.Fl,"8",B.Fa,"9",B.Fb,"Alt",B.FH,"AltGraph",B.Fd,"ArrowDown",B.EF,"ArrowLeft",B.EG,"ArrowRight",B.EH,"ArrowUp",B.Es,"Clear",B.EO,"Control",B.FI,"Delete",B.EM,"End",B.EI,"Enter",B.EC,"Home",B.EJ,"Insert",B.EP,"Meta",B.FJ,"PageDown",B.EK,"PageUp",B.E5,"Shift",B.FK],A.ak("cL<n,B<f?>>"))
 B.Ej=A.b(s([42,null,null,8589935146]),t.Z)
 B.Ek=A.b(s([43,null,null,8589935147]),t.Z)
 B.Em=A.b(s([45,null,null,8589935149]),t.Z)
@@ -87021,24 +87021,24 @@ B.Ey=A.b(s([54,null,null,8589935158]),t.Z)
 B.Ez=A.b(s([55,null,null,8589935159]),t.Z)
 B.EA=A.b(s([56,null,null,8589935160]),t.Z)
 B.EB=A.b(s([57,null,null,8589935161]),t.Z)
-B.F0=A.b(s([8589934852,8589934852,8589934853,null]),t.Z)
+B.F1=A.b(s([8589934852,8589934852,8589934853,null]),t.Z)
 B.E8=A.b(s([4294967555,null,4294967555,null]),t.Z)
 B.E9=A.b(s([4294968065,null,null,8589935154]),t.Z)
 B.Ea=A.b(s([4294968066,null,null,8589935156]),t.Z)
 B.Eb=A.b(s([4294968067,null,null,8589935158]),t.Z)
 B.Ec=A.b(s([4294968068,null,null,8589935160]),t.Z)
 B.Eh=A.b(s([4294968321,null,null,8589935157]),t.Z)
-B.F1=A.b(s([8589934848,8589934848,8589934849,null]),t.Z)
+B.F2=A.b(s([8589934848,8589934848,8589934849,null]),t.Z)
 B.E7=A.b(s([4294967423,null,null,8589935150]),t.Z)
 B.Ed=A.b(s([4294968069,null,null,8589935153]),t.Z)
 B.E6=A.b(s([4294967309,null,null,8589935117]),t.Z)
 B.Ee=A.b(s([4294968070,null,null,8589935159]),t.Z)
 B.Ei=A.b(s([4294968327,null,null,8589935152]),t.Z)
-B.F2=A.b(s([8589934854,8589934854,8589934855,null]),t.Z)
+B.F3=A.b(s([8589934854,8589934854,8589934855,null]),t.Z)
 B.Ef=A.b(s([4294968071,null,null,8589935155]),t.Z)
 B.Eg=A.b(s([4294968072,null,null,8589935161]),t.Z)
-B.F3=A.b(s([8589934850,8589934850,8589934851,null]),t.Z)
-B.tc=new A.cL(["*",B.Ej,"+",B.Ek,"-",B.Em,".",B.En,"/",B.Eo,"0",B.Ep,"1",B.Eq,"2",B.Eu,"3",B.Ev,"4",B.Ew,"5",B.Ex,"6",B.Ey,"7",B.Ez,"8",B.EA,"9",B.EB,"Alt",B.F0,"AltGraph",B.E8,"ArrowDown",B.E9,"ArrowLeft",B.Ea,"ArrowRight",B.Eb,"ArrowUp",B.Ec,"Clear",B.Eh,"Control",B.F1,"Delete",B.E7,"End",B.Ed,"Enter",B.E6,"Home",B.Ee,"Insert",B.Ei,"Meta",B.F2,"PageDown",B.Ef,"PageUp",B.Eg,"Shift",B.F3],A.ak("cL<n,B<r?>>"))
+B.F4=A.b(s([8589934850,8589934850,8589934851,null]),t.Z)
+B.tc=new A.cL(["*",B.Ej,"+",B.Ek,"-",B.Em,".",B.En,"/",B.Eo,"0",B.Ep,"1",B.Eq,"2",B.Eu,"3",B.Ev,"4",B.Ew,"5",B.Ex,"6",B.Ey,"7",B.Ez,"8",B.EA,"9",B.EB,"Alt",B.F1,"AltGraph",B.E8,"ArrowDown",B.E9,"ArrowLeft",B.Ea,"ArrowRight",B.Eb,"ArrowUp",B.Ec,"Clear",B.Eh,"Control",B.F2,"Delete",B.E7,"End",B.Ed,"Enter",B.E6,"Home",B.Ee,"Insert",B.Ei,"Meta",B.F3,"PageDown",B.Ef,"PageUp",B.Eg,"Shift",B.F4],A.ak("cL<n,B<r?>>"))
 B.Hj=new A.cL([0,"FontWeight.w100",1,"FontWeight.w200",2,"FontWeight.w300",3,"FontWeight.w400",4,"FontWeight.w500",5,"FontWeight.w600",6,"FontWeight.w700",7,"FontWeight.w800",8,"FontWeight.w900"],A.ak("cL<r,n>"))
 B.I2={"deleteBackward:":0,"deleteWordBackward:":1,"deleteToBeginningOfLine:":2,"deleteForward:":3,"deleteWordForward:":4,"deleteToEndOfLine:":5,"moveLeft:":6,"moveRight:":7,"moveForward:":8,"moveBackward:":9,"moveUp:":10,"moveDown:":11,"moveLeftAndModifySelection:":12,"moveRightAndModifySelection:":13,"moveUpAndModifySelection:":14,"moveDownAndModifySelection:":15,"moveWordLeft:":16,"moveWordRight:":17,"moveToBeginningOfParagraph:":18,"moveToEndOfParagraph:":19,"moveWordLeftAndModifySelection:":20,"moveWordRightAndModifySelection:":21,"moveParagraphBackwardAndModifySelection:":22,"moveParagraphForwardAndModifySelection:":23,"moveToLeftEndOfLine:":24,"moveToRightEndOfLine:":25,"moveToBeginningOfDocument:":26,"moveToEndOfDocument:":27,"moveToLeftEndOfLineAndModifySelection:":28,"moveToRightEndOfLineAndModifySelection:":29,"moveToBeginningOfDocumentAndModifySelection:":30,"moveToEndOfDocumentAndModifySelection:":31,"transpose:":32,"scrollToBeginningOfDocument:":33,"scrollToEndOfDocument:":34,"scrollPageUp:":35,"scrollPageDown:":36,"pageUpAndModifySelection:":37,"pageDownAndModifySelection:":38,"cancelOperation:":39,"insertTab:":40,"insertBacktab:":41}
 B.xm=new A.kA(!1)
@@ -87958,19 +87958,19 @@ B.hp=new A.ry(0,"pop")
 B.es=new A.ry(1,"doNotPop")
 B.xf=new A.ry(2,"bubble")
 B.eJ=new A.Mm(1,"down")
-B.NC=new A.l(!0,B.j,null,null,null,null,8,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.Ro=new A.jh("1.0.3",null,B.NC,B.hL,null,null,null,null,null)
-B.D6=new A.wk(1,B.j4,B.Ro,null)
-B.FB=A.b(s([B.D6]),t.E)
-B.JX=new A.rz(B.aH,B.a_,B.D,B.G,null,B.eJ,null,B.FB,null)
 B.B3=new A.q(4278209855)
 B.Qr=new A.l(!0,B.B3,null,null,null,null,20,B.dY,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.Rp=new A.jh("Escreva aqui",null,B.Qr,null,null,null,null,null,null)
 B.BA=new A.q(4288651167)
 B.Om=new A.l(!0,B.BA,null,null,null,null,8,B.dY,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.Rq=new A.jh("1.0.3",null,B.Om,null,null,null,null,null,null)
-B.Fb=A.b(s([B.Rp,B.Rq]),t.E)
-B.xg=new A.rz(B.aH,B.c6,B.D,B.G,null,B.eJ,null,B.Fb,null)
+B.Rq=new A.jh("1.0.4 18022025",null,B.Om,null,null,null,null,null,null)
+B.EZ=A.b(s([B.Rp,B.Rq]),t.E)
+B.xg=new A.rz(B.aH,B.c6,B.D,B.G,null,B.eJ,null,B.EZ,null)
+B.NC=new A.l(!0,B.j,null,null,null,null,8,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
+B.Ro=new A.jh("1.0.4 18022025",null,B.NC,B.hL,null,null,null,null,null)
+B.D6=new A.wk(1,B.j4,B.Ro,null)
+B.FB=A.b(s([B.D6]),t.E)
+B.JX=new A.rz(B.aH,B.a_,B.D,B.G,null,B.eJ,null,B.FB,null)
 B.JY=new A.Kt(null,null)
 B.dk=new A.oP(0,"idle")
 B.JZ=new A.oP(1,"transientCallbacks")
